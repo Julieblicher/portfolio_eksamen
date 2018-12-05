@@ -19,6 +19,39 @@ section {
 #omkring {
 	border-top: 5px solid #A7D6DE;
 }
+
+.fritid {
+	width: 90%;
+	background: #A7D6DE;
+	padding: 4%;
+	margin: 4%;
+	line-height: 27px;
+	text-align: justify;
+	margin-left: 200px;
+	
+}
+.uddannelse {
+	width: 80%;
+	background: #A7D6DE;
+	padding: 2%;
+	margin: 4%;
+	line-height: 25px;
+	margin-left: 230px;
+	margin-top: 80px;
+	
+}
+h3 {
+	font-size: 1.4em;
+}
+
+.omkringbillede figure {
+	position: relative;
+	bottom: 530px;
+	left: 390px;
+	z-index: -1;
+	
+}
+
 /*kontakt style */
 #kontakt {
 	border-top: 5px solid #A7D6DE;
