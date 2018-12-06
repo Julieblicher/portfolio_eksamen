@@ -2,7 +2,7 @@
 <html lang="da">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Sweetbot Redesign">
+<meta name="description" content="Portfolio">
 <meta name="keywords" content="sweetbot, responsive, html, css, javascript">
 <meta name="author" content="Christine Due, Julie Blicher og Julie Sonne">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,10 +45,11 @@
 </head>
 
 <body>
-	<div class="container">
-	<div class="grid grid-pad">
+	
+	
 		
-<section id="forside">
+<div class="forsidecontainer">
+	<section id="forside">
 	<div class="large-1-1 medium-1-1 small-1-1">
 		<div class="large-1-3 medium-1-3 small-1-3">
 		<a href="#">
@@ -74,7 +75,7 @@
   </div>
 		</nav>
 		</div>
-		<div class="large-1-1 medium-1-1 small-1-1">
+		<div class="large-1-1 medium-1-1 small-1-1 overskrift">
 			<h1>Julie Blicher Jensen</h1>
 		</div>
 		<div class="large-1-1 medium-1-1 small-1-1 forsidebillede">
@@ -82,8 +83,12 @@
 		</div>
 	</div>
 </section>
-		
-<section id="projekter">		
+</div>
+	<div class="container">
+	<div class="grid grid-pad">
+
+<div class="large-1-1 medium-1-1 small-1-1 projektcontainer">
+<section id="projekter">	
 	<div class="large-1-3 medium-1-3 small-1-3">
 		<a href="#forside">
 		<img src="" alt="logo">
@@ -108,15 +113,36 @@
   </div>
 </nav>
 		</div>
-</section>
+	<div class="large-1-1 medium-1-1 small-1-1">
+		<div class="large-1-2 medium-1-2 small-1-1 flow1">
+        <a href="pages/drøm_dit_portfolio.html">
+			<img src="images /flow1.png" width="700" height="392" alt="flow1"/><p>Drøm dit portfolio</p></a>
+		<a href="pages/byg_dit_portfolio.html">
+			<img src="images /flow2.png" width="700" height="420" alt="flow2"/><p>Byg dit portfolio</p></a>
+		<a href="pages/portfolio_eksamen.html">
+			<img src="images /flow5.png" width="700" height="420" alt="flow5"/><p>Portfolio</p></a>
+		</div>
+	
+		<div class="large-1-2 medium-1-2 small-1-1 flow3">
+        <a href="pages/byg_en_app.html">
+			<img src="images /flow3.png" width="406" height="700" alt="flow3"/><p>Byg en app</p></a>
+		</div>
 		
+		<div class="large-1-2 medium-1-2 small-1-1 flow4">
+			<a href="pages/sweetbot.html">
+				<img src="images /flow4.png" width="434" height="700" alt="flow4"/><p>Sweetbot design</p></a>
+		</div>	
+	</div>
+</section>
+</div>
+<div class="large-1-1 medium-1-1 small-1-1 omkringcontainer">		
 <section id="omkring">
 	<div class="large-1-3 medium-1-3 small-1-3">
 		<a href="#forside">
 		<img src="" alt="logo">
 		</a>
 	</div>
-	<div class="large-1-2 medium-1-2 small-1-2">
+	<div class="large-1-2 medium-1-2 small-1-2 ">
 			<h1>Omkring</h1>
 		<nav role="navigation">
   <div class="menuToggle">
@@ -159,9 +185,10 @@
 		<figure><img src="images /omkring-billede.png" width="500" height="500" alt="mig"/></figure>
 		
 	</div>
-
 </section>
+</div>
 		
+<div class="large-1-1 medium-1-1 small-1-1 kontaktcontainer">	
 <section id="kontakt">
 	<div class="large-1-3 medium-1-3 small-1-3">
 		<a href="#forside">
@@ -169,7 +196,7 @@
 		</a>
 	</div>
 	
-	<div class="large-1-2 medium-1-2 small-1-2">
+	<div class="large-1-2 medium-1-2 small-1-2 ">
 		<h1>Kontakt</h1>
 		<nav role="navigation">
   <div class="menuToggle">
@@ -204,6 +231,7 @@
 	    
 	</div>
 </section>
+</div>
 		
 	</div>
 	</div>
