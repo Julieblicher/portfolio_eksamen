@@ -343,7 +343,16 @@ ul a {
 /*Drøm dit portfolio style*/
 .dromoverskrift h1 {
 	text-align: center;
-	margin: 10%;
+	position:relative;
+	top: -190px;
+	font-size: 3em;
+	margin-bottom: -5%;
+	
+}
+.dromoverskrift img {
+	width: 10%;
+	height: auto;
+	margin-top: 10%;
 }
 .dromrakke1 p {
 	line-height: 27px;
@@ -375,16 +384,70 @@ ul a {
 	margin: 5% 0 0 10%;
 }
 .layout p {
-	margin: 5% 0 0 10%;
+	margin: 5% 0 15% 10%;
 	line-height: 27px;
 	text-align: justify;
 }
 .farver p {
-	margin: 5% 20% 0 10%;
+	margin: 5% 20% 15% 10%;
 	line-height: 27px;
 	text-align: justify;
 }
 
+/*Byg dit portfolio style*/
+.bygoverskrift h1 {
+	text-align: center;
+	position:relative;
+	top: -190px;
+	font-size: 3em;
+	margin-bottom: -5%;
+	
+}
+.bygoverskrift img {
+	width: 10%;
+	height: auto;
+	margin-top: 10%;
+}
+.bygrakke1 p {
+	line-height: 27px;
+	margin: 2% 10% 3% 10%;
+	text-align: justify;
+}
+
+.bygrakke1 img {
+	width: 85%;
+	height: auto;
+	
+}
+.bygrakke1 a {
+	font-size: 1.3em;
+	color: #5B5B5B;
+	margin: 2% 10% 0 10%;
+}
+.bygrakke2 img {
+	width: 90%;
+	height:auto;
+	margin-top: 10%;
+	border: 1px solid #A7D6DE;
+}
+.bygrakke3 h3 {
+	font-size: 1.6em;
+	margin: 5% 0 0 5%;
+}
+
+.bygrakke3 h4 {
+	margin: 5% 0 0 10%;
+}
+.layout p {
+	margin: 5% 0 15% 10%;
+	line-height: 27px;
+	text-align: justify;
+}
+.farver p {
+	margin: 5% 20% 15% 10%;
+	line-height: 27px;
+	text-align: justify;
+}
 /*iPad style*/
 @media handheld, only screen and (max-width: 768px) and (min-width: 414px) {
 	.form-control {
