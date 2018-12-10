@@ -583,6 +583,32 @@ ul a {
 	margin-bottom: 15%;
 }
 
+/*Eksamensprojekt style*/
+.portfoliooverskrift h1 {
+	text-align: center;
+	position:relative;
+	top: -190px;
+	font-size: 3em;
+	margin-bottom: -5%;
+	color: #5B5B5B;
+	
+}
+.portfoliooverskrift img {
+	width: 10%;
+	height: auto;
+	margin-top: 10%;
+}
+.portfoliorakke1 p {
+	line-height: 27px;
+	margin: 0 10% 0 10%;
+	text-align: justify;
+}
+.portfoliorakke1 a {
+	font-size: 1.3em;
+	margin: 2% 10% 0 10%;
+	color: #5B5B5B;
+}
+
 /*iPad style*/
 @media handheld, only screen and (max-width: 768px) and (min-width: 414px) {
 	.form-control {
