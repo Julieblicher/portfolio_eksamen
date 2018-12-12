@@ -173,6 +173,17 @@ h1 {
 
 /*logo + burgermenu style*/
 
+#forside .logo {
+	width: 35%;
+	height: auto;
+	margin-left: 22%;
+	margin-top: -5%;
+}
+.logo {
+	width: 40%;
+	height: auto;
+	margin-top: -5%;
+}
 
 .menuToggle
 {
@@ -604,11 +615,162 @@ ul a {
 	text-align: justify;
 }
 .portfoliorakke1 a {
-	font-size: 1.3em;
-	margin: 2% 10% 0 10%;
+	font-size: 1.2em;
+	margin: 0 1% 0 1%;
 	color: #5B5B5B;
 }
+.portfoliorakke1 img {
+	width: 100%;
+	height: auto;
+}
+.udgangspunkt h3 {
+	line-height: 27px;
+	margin: 5% 5% 2% 10%;
+	text-align: justify;
+}
+.udgangspunkt p {
+	line-height: 27px;
+	margin: 0 5% 10% 10%;
+	text-align: justify;
+}
+.udgangspunkt2 p {
+	line-height: 27px;
+	margin: 11% 10% 5% 5%;
+	text-align: justify;
+}
+.design img {
+	width: 85%;
+	height: auto;
+	margin: 4% 10% 5% 10%;
+}
+.design p {
+	line-height: 27px;
+	margin: 0 10% 5% 10%;
+	text-align: justify;
+}
+.design h3 {
+	line-height: 27px;
+	margin: 0% 10% 2% 10%;
+	text-align: justify;
+}
+.portfoliorakke7 img {
+	width: 70%;
+	height: auto;
+}
+.portfoliorakke8 img {
+	width: 90%;
+	height: auto;
+}
+.portfoliorakke9 img {
+	width: 80%;
+	height: auto;
+}
+.portfoliorakke3 h3 {
+	line-height: 27px;
+	margin: 5% 5% 2% 5%;
+	text-align: justify;
+}
+.portfoliorakke3 img {
+	width: 100%;
+	height: auto;
+	margin: 4% 10% 5% 7%;
+}
+.ganttkort p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke4 h3 {
+	line-height: 27px;
+	margin: 0 5% 2% 10%;
+	text-align: justify;
+}
+.portfoliorakke4 img {
+	width: 90%;
+	height: auto;
+	margin: 0 10% 5% 7%;
+}
+.projektstyring p {
+	line-height: 27px;
+	margin: 7% 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke5 h3 {
+	line-height: 27px;
+	margin: 0 5% 2% 5%;
+	text-align: justify;
+}
+.portfoliorakke5 img {
+	width: 80%;
+	height: auto;
+	margin: 0 10% 5% 10%;
+}
+.brainstorm p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
 
+.portfoliorakke6 img {
+	width: 60%;
+	height: auto;
+	margin: -25% 10% 0 20%;
+}
+.sitemap p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke7 img {
+	width: 60%;
+	height: auto;
+	margin: -17% 10% 5% 20%;
+}
+.skitser p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke8 img {
+	width: 80%;
+	height: auto;
+	margin: -7% 10% 5% 10%;
+}
+.moodboard p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke9 img {
+	width: 80%;
+	height: auto;
+	margin: -7% 10% 5% 10%;
+}
+.wireframes p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke10 img {
+	width: 80%;
+	height: auto;
+	margin: -7% 10% 5% 10%;
+}
+.mockups p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke11 img {
+	width: 80%;
+	height: auto;
+	margin: -4% 10% 5% 10%;
+}
+.styletile p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
 /*iPad style*/
 @media handheld, only screen and (max-width: 768px) and (min-width: 414px) {
 	.form-control {
