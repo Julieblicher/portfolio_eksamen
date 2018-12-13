@@ -102,7 +102,7 @@ section {
 	
 }
 .uddannelse {
-	width: 80%;
+	width: 85%;
 	background: #A7D6DE;
 	padding: 2%;
 	margin: 4%;
@@ -141,8 +141,9 @@ h1 {
 	text-align: center;	
 }
 .form-control{
-	width: 60%;
-	margin: 2% 2% 2% 50%;
+	width: 80%;
+	height: auto;
+	margin: 2% 2% 2% 40%;
 	padding: 2%;
 	border: none;
 	font-family: 'Nixie One', cursive;
@@ -153,8 +154,8 @@ h1 {
 }
 
 .submit{
-	width: 25%;
-	margin-left: 60%;
+	width: 50%;
+	margin-left: 55%;
 	border-radius: 4px;
 }
 .submit:hover {
@@ -162,13 +163,34 @@ h1 {
 	color: #5B5B5B;
 }
 .kontaktbox figure {
+	width: 80%;
+	height: auto;
 	position: relative;
-	bottom: 490px;
-	left: 390px;
+	bottom: 115px;
+	right: 270px;
 	z-index: -1;
 	opacity: 0.5;
 }
+.kontaktoplysninger {
+	width: 25%;
+	background: #A7D6DE;
+	padding: 2%;
+	line-height: 27px;
+	position: relative;
+	right: 200px;
+	top: 80px;
+}
+.kontaktoplysninger h4 {
+	font-size: 1.4em;
+}
 
+.fa {
+	color: #5B5B5B;
+	padding: 4%;
+}
+li {
+	list-style: none;
+}
 
 
 /*logo + burgermenu style*/
@@ -630,28 +652,58 @@ ul a {
 }
 .udgangspunkt p {
 	line-height: 27px;
-	margin: 0 5% 10% 10%;
+	margin: 0 5% 0 10%;
 	text-align: justify;
 }
 .udgangspunkt2 p {
 	line-height: 27px;
-	margin: 11% 10% 5% 5%;
+	margin: 11% 10% 0 5%;
 	text-align: justify;
 }
+.udgangspunkt a {
+	text-decoration: none;
+	color: blue;
+	font-weight: 800;
+}
 .design img {
-	width: 85%;
+	width: 90%;
 	height: auto;
-	margin: 4% 10% 5% 10%;
+	margin: -7% 10% 0 10%;
 }
 .design p {
 	line-height: 27px;
-	margin: 0 10% 5% 10%;
+	margin: 0 10% 0 10%;
 	text-align: justify;
 }
 .design h3 {
 	line-height: 27px;
-	margin: 0% 10% 2% 10%;
+	margin: 5% 5% 2% 5%;
 	text-align: justify;
+}
+.design2 img {
+	width: 85%;
+	height: auto;
+	margin: 5% 10% 0 9%;
+}
+.malgruppe h3 {
+	line-height: 27px;
+	margin: 5% 5% 2% 10%;
+	text-align: justify;
+}
+.malgruppe p {
+	line-height: 27px;
+	margin: 0 5% 0 10%;
+	text-align: justify;
+}
+.persona p {
+	line-height: 27px;
+	margin: 11% 10% 0 5%;
+	text-align: justify;
+}
+.persona a {
+	text-decoration: none;
+	color: blue;
+	font-weight: 800;
 }
 .portfoliorakke7 img {
 	width: 70%;
@@ -679,6 +731,11 @@ ul a {
 	line-height: 27px;
 	margin: 0 10% 10% 10%;
 	text-align: justify;
+}
+.ganttkort a {
+	text-decoration: none;
+	color: blue;
+	font-weight: 800;
 }
 .portfoliorakke4 h3 {
 	line-height: 27px;
