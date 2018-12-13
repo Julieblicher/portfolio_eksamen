@@ -833,7 +833,37 @@ ul a {
 	.form-control {
 		margin: 2%;
 	}
-	
+	.overskrift {
+	font-size: 2em;
+	position: absolute;
+	top: 300px;
+}
+
+ .forsidebillede figure {
+	position: absolute;
+	left: -100px;
+	top: 10px;
+}
+
+.menu
+{
+  position: absolute;
+  width: 250px;
+  margin: -100px 0 0 -50px;
+  padding: 40px;
+  padding-top: 100px;
+
+}
+.menuToggle
+{
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 280px;
+}
+.menuToggle input:checked ~ ul {
+  transform: translateX(-200px);
+}
 }
 
 /*iPhone style*/
@@ -846,6 +876,50 @@ ul a {
 	.submit {
 		width: 60%;
 	}
+	
+.overskrift {
+	font-size: 2em;
+	position: absolute;
+	top: 150px;
+}
+
+ .forsidebillede figure {
+	position: absolute;
+	left: -150px;
+	
+}
+	.forsidebillede img {
+		width: 800px;
+		height: auto;
+	}
+.menu
+{
+  position: absolute;
+  width: 400px;
+  margin: -100px 0 0 -50px;
+  padding: 40px;
+  padding-top: 100px;
+
+}
+.menuToggle
+{
+  display: block;
+  position: relative;
+  top: -80px;
+  left: 300px;
+}
+.menuToggle input:checked ~ ul {
+  transform: translateX(-270px);
+}
+.menu2
+{
+  position: absolute;
+  width: 400px;
+  margin: -100px 0 0 -50px;
+  padding: 40px;
+  padding-top: 100px;
+
+}
 }
 
 
