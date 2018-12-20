@@ -52,9 +52,9 @@
 		margin: 0 auto;
 	}
 }
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 2000px){
 	.forsidecontainer{
-		max-width: 1500px;
+		max-width: 2000px;
 		margin: 0 auto;
 	}
 }

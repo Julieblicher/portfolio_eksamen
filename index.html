@@ -6,217 +6,189 @@
 <meta name="keywords" content="portfolio">
 <meta name="author" content=" Julie Blicher Jensen">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--Sætter jQuery ind som hjælper på de fleste problemer i javascript
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 <!--Grid layout stylesheet-->
 <link rel="stylesheet" href="styles/gridsetup.css">
 <!--Eget stylesheet-->
 <link rel="stylesheet" href="styles/stylesheet.css">
 <!-- Font style -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
- <!-- Add icon library --> 
+<!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 <title>Portfolio</title>
-		<!--loading jQuery-->
+<!--loading jQuery-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!--loading scrollTo plugin-->	
+<!--loading scrollTo plugin-->
 <script src="jquery.scrollTo-master/jquery.scrollTo.min.js"></script>
 <script>
-			//for at bruge følgende kode skal du have linket
-			//$ betyder du henvender dig til linket
 			$(document).ready(function(){
-				//bliver udført når dokumentet er læst ind!
+		
 				console.log('jQuery er der!');
 				$('#knap').click(klik);
 				
-				//implementering scroll animation
 				$('nav a').click(function(){
 					$(window).scrollTo(this.hash, 1000);
 				});	
 			});
-</script>	
+</script>
 </head>
-<body>		
+<body>
 <div class="forsidecontainer">
-	<section id="forside">
-	<div class="large-1-1 medium-1-1 small-1-1">
-		<div class="large-1-1 medium-1-1 small-1-1">
-			<div class="pilop"><a href="index.html"><img src="images1/1x/pilop2.png" alt="pilop"></a></div>
-			</div>
-		<div class="large-1-3 medium-1-2 small-1-2">
-		<a href="#">
-		<img class="logo" src="images1/1x/logo3.png" alt="logo">
-		</a>
-		</div>
-		<div class="large-1-2 medium-1-2 small-1-1">
-  <div class="menuToggle">
-    <input type="checkbox" /> 
-    <span></span>
-    <span></span>
-    <span></span> 
-    <ul class="menu">
-      <li><a href="#projekter">Projekter</a></li>
-      <li><a href="#omkring">Omkring</a></li>
-     <li><a href="#kontakt">Kontakt</a></li>
-    </ul>
-  </div>
-		</div>
-		<div class="large-1-1 medium-1-1 small-1-1 overskrift">
-			<h1>Julie Blicher Jensen</h1>
-		</div>
-		<div class="large-1-1 medium-1-1 small-1-1 forsidebillede">
-		<figure><img src="images/forside-stor.png" width="1000" height="1000" alt="forsidebillede"/></figure>
-		</div>
-	</div>
-</section>
+  <section id="forside">
+    <div class="large-1-1 medium-1-1 small-1-1">
+      <div class="large-1-1 medium-1-1 small-1-1">
+        <div class="pilop"><a href="index.html"><img src="images1/1x/pilop2.png" alt="pilop"></a></div>
+      </div>
+      <div class="large-1-3 medium-1-2 small-1-2"> <a href="#"> <img class="logo" src="images1/1x/logo3.png" alt="logo"> </a> </div>
+      <div class="large-1-2 medium-1-2 small-1-1">
+        <div class="menuToggle">
+          <input type="checkbox" />
+          <span></span> <span></span> <span></span>
+          <ul class="menu">
+            <li><a href="#projekter">Projekter</a></li>
+            <li><a href="#omkring">Omkring</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="large-1-1 medium-1-1 small-1-1 overskrift">
+        <h1>Julie Blicher Jensen</h1>
+      </div>
+      <div class="large-1-1 medium-1-1 small-1-1 forsidebillede">
+        <figure><img src="images/forside-stor.png" width="1000" height="1000" alt="forsidebillede"/></figure>
+      </div>
+    </div>
+  </section>
 </div>
-	<div class="container">
-	<div class="grid grid-pad">
-<div class="large-1-1 medium-1-1 small-1-1 projektcontainer">
-<section id="projekter">	
-	<div class="large-1-3 medium-1-2 small-1-1">
-		<a href="#forside">
-		<img class="logo" src="images1/1x/logo3.png" alt="logo">
-		</a>
-	</div>
-	<div class="large-1-2 medium-1-2 small-1-1">
-			<h1>Projekter</h1>
-  <div class="menuToggle">
-    <input type="checkbox" />
-    <span></span>
-    <span></span>
-    <span></span>
-    <ul class="menu2">
-      <li><a href="#projekter">Projekter</a></li>
-     <li><a href="#omkring">Omkring</a></li>
-      <li><a href="#kontakt">Kontakt</a></li>  
-    </ul>
+<div class="container">
+  <div class="grid grid-pad">
+    <div class="large-1-1 medium-1-1 small-1-1 projektcontainer">
+      <section id="projekter">
+        <div class="large-1-3 medium-1-2 small-1-1"> <a href="#forside"> <img class="logo" src="images1/1x/logo3.png" alt="logo"> </a> </div>
+        <div class="large-1-2 medium-1-2 small-1-1">
+          <h1>Projekter</h1>
+          <div class="menuToggle">
+            <input type="checkbox" />
+            <span></span> <span></span> <span></span>
+            <ul class="menu2">
+              <li><a href="#projekter">Projekter</a></li>
+              <li><a href="#omkring">Omkring</a></li>
+              <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="large-1-1 medium-1-1 small-1-1">
+          <div class="large-1-2 medium-1-2 small-1-1 flow1"> <a href="pages/drøm_dit_portfolio.html"> <img src="images/flow1.png" width="700" height="392" alt="flow1"/>
+            <p>Drøm dit portfolio</p>
+            </a> <a href="pages/byg_dit_portfolio.html"> <img src="images/flow2.png" width="700" height="420" alt="flow2"/>
+            <p>Byg dit portfolio</p>
+            </a> <a href="pages/portfolio_eksamen.html"> <img src="images/portfolio-forside.png" width="700" height="420" alt="flow5"/>
+            <p>Portfolio eksamensprojekt</p>
+            </a> </div>
+          <div class="large-1-2 medium-1-2 small-1-1 flow3"> <a href="pages/byg_en_app.html"> <img src="images/flow3.png" width="406" height="700" alt="flow3"/>
+            <p>Byg en app</p>
+            </a> </div>
+          <div class="large-1-2 medium-1-2 small-1-1 flow4"> <a href="pages/sweetbot.html"> <img src="images/flow4.png" width="434" height="700" alt="flow4"/>
+            <p>Sweetbot design</p>
+            </a> </div>
+        </div>
+      </section>
+    </div>
+    <div class="large-1-1 medium-1-1 small-1-1 omkringcontainer">
+      <section id="omkring">
+        <div class="large-1-3 medium-1-2 small-1-1"> <a href="#forside"> <img class="logo" src="images1/1x/logo3.png" alt="logo"> </a> </div>
+        <div class="large-1-2 medium-1-2 small-1-1 ">
+          <h1>Omkring</h1>
+          <div class="menuToggle">
+            <input type="checkbox" />
+            <span></span> <span></span> <span></span>
+            <ul class="menu2">
+              <li><a href="#projekter">Projekter</a></li>
+              <li><a href="#omkring">Omkring</a></li>
+              <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="large-1-1 medium-1-1 small-1-1 omkringbillede">
+          <div class="large-1-4 medium-1-2 small-1-1" >
+            <div class="fritid">
+              <h3>Om mig</h3>
+              <p>Jeg er en kreativ og aktiv pige, der tit har for mange idéer i hovedet til at kunne få ført dem alle ud i verdenen. Jeg elsker at lære nye ting og brænder meget for at blive bedre inden for multimedieverdenen. Derudover går jeg meget op i give et godt humør og smil videre med videre på min vej. <br>
+                Mine kompetencer ligger mest i at være kreativ. Jeg har arbejdet meget i forskellige Adobe programmer, men er også ved at have godt styr på kodning i HTML og CSS.</p>
+            </div>
+          </div>
+          <div class="large-1-4 medium-1-2 small-1-1">
+            <div class="uddannelse">
+              <h3>Uddannelse</h3>
+              <p>Folkeskole 2004-2014 <br>
+                Boesagerskolen</p>
+              <p>Almen gymnasium 2014-2017<br>
+                Borupgaardgymnasium</p>
+              <p>Højskole januar 2018 - juli 2018<br>
+                Event og lederskab</p>
+              <p>CphBusiness 2018-2020<br>
+                Multimediedesign</p>
+            </div>
+          </div>
+          <div class="large-1-1 medium-1-1 hide-on-small">
+            <figure><img src="images/omkring-billede.png" width="500" height="500" alt="mig"/></figure>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="large-1-1 medium-1-1 small-1-1 kontaktcontainer">
+      <section id="kontakt">
+        <div class="large-1-3 medium-1-2 small-1-1"> <a href="#forside"> <img class="logo" src="images1/1x/logo3.png" alt="logo"> </a> </div>
+        <div class="large-1-2 medium-1-2 small-1-1 ">
+          <h1>Kontakt</h1>
+          <div class="menuToggle">
+            <input type="checkbox" />
+            <span></span> <span></span> <span></span>
+            <ul class="menu2">
+              <li><a href="#projekter">Projekter</a></li>
+              <li><a href="#omkring">Omkring</a></li>
+              <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="large-1-1 medium-1-1 small-1-1 kontaktbox">
+          <div class="large-1-3 medium-1-3 small-1-1">
+            <div class="contact-form">
+              <form id="contact-form" action="mailto:juliejhome@gmail.com" method="post" enctype="text/plain">
+                <input name="name" type="text" class="form-control" placeholder="Navn" required>
+                <br>
+                <input name="name" type="email" class="form-control" placeholder="Email" required>
+                <br>
+                <textarea name="message" class="form-control" placeholder="Besked" rows="4" required></textarea>
+                <br>
+                <input type="submit" class="form-control submit" value="SEND">
+              </form>
+            </div>
+          </div>
+          <div class="large-1-3 medium-1-3 hide-on-small">
+            <figure><img src="images/kuvert.gif" width="700" height="700" alt="kuvert"/></figure>
+          </div>
+          <div class="large-1-3 medium-1-3 small-1-1 kontaktoplysninger">
+            <h4>Kontaktoplysninger</h4>
+            Telefon: 51161513 <br>
+            Email: juliejhome@gmail.com <br>
+            <ul>
+              <li><a href="https://www.facebook.com/juliejhome">
+                <p class="fa fa-facebook"></p>
+                </a>
+                <p class="fa fa-twitter"></p>
+                <p class="fa fa-linkedin"></p>
+                <a href="https://www.instagram.com/juliebjensen20/">
+                <p class="fa fa-instagram"></p>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
-		</div>
-	<div class="large-1-1 medium-1-1 small-1-1">
-		<div class="large-1-2 medium-1-2 small-1-1 flow1">
-        <a href="pages/drøm_dit_portfolio.html">
-			<img src="images/flow1.png" width="700" height="392" alt="flow1"/><p>Drøm dit portfolio</p></a>
-		<a href="pages/byg_dit_portfolio.html">
-			<img src="images/flow2.png" width="700" height="420" alt="flow2"/><p>Byg dit portfolio</p></a>
-		<a href="pages/portfolio_eksamen.html">
-			<img src="images/portfolio-forside.png" width="700" height="420" alt="flow5"/><p>Portfolio eksamensprojekt</p></a>
-		</div>
-		<div class="large-1-2 medium-1-2 small-1-1 flow3">
-        <a href="pages/byg_en_app.html">
-			<img src="images/flow3.png" width="406" height="700" alt="flow3"/><p>Byg en app</p></a>
-		</div>
-		<div class="large-1-2 medium-1-2 small-1-1 flow4">
-			<a href="pages/sweetbot.html">
-				<img src="images/flow4.png" width="434" height="700" alt="flow4"/><p>Sweetbot design</p></a>
-		</div>	
-	</div>
-</section>
 </div>
-<div class="large-1-1 medium-1-1 small-1-1 omkringcontainer">		
-<section id="omkring">
-	<div class="large-1-3 medium-1-2 small-1-1">
-		<a href="#forside">
-		<img class="logo" src="images1/1x/logo3.png" alt="logo">
-		</a>
-	</div>
-	<div class="large-1-2 medium-1-2 small-1-1 ">
-			<h1>Omkring</h1>
-  <div class="menuToggle">
-    <input type="checkbox" />  
-    <span></span>
-    <span></span>
-    <span></span>
-    <ul class="menu2">
-      <li><a href="#projekter">Projekter</a></li>
-      <li><a href="#omkring">Omkring</a></li>
-      <li><a href="#kontakt">Kontakt</a></li>
-    </ul>
-  </div>
-		</div>
-	<div class="large-1-1 medium-1-1 small-1-1 omkringbillede">
-		<div class="large-1-4 medium-1-2 small-1-1" >
-			<div class="fritid">
-			<h3>Om mig</h3>
-			<p>Jeg er en kreativ og aktiv pige, der tit har for mange idéer i hovedet til at kunne få ført dem alle ud i verdenen. Jeg elsker at lære nye ting og brænder meget for at blive bedre inden for multimedieverdenen. Derudover går jeg meget op i give et godt humør og smil videre med videre på min vej. <br> Mine kompetencer ligger mest i at være kreativ. Jeg har arbejdet meget i forskellige Adobe programmer, men er også ved at have godt styr på kodning i HTML og CSS.</p>
-			</div>
-		</div>
-		<div class="large-1-4 medium-1-2 small-1-1">
-			<div class="uddannelse">
-			<h3>Uddannelse</h3>
-			<p>Folkeskole 2004-2014 <br>
-			Boesagerskolen</p>
-			<p>Almen gymnasium 2014-2017<br>
-			Borupgaardgymnasium</p>
-			<p>Højskole januar 2018 - juli 2018<br>
-			Event og lederskab</p>
-			<p>CphBusiness 2018-2020<br>
-			Multimediedesign</p>
-		</div>
-			
-		</div>
-		<div class="large-1-1 medium-1-1 hide-on-small">
-		<figure><img src="images/omkring-billede.png" width="500" height="500" alt="mig"/></figure>
-		</div>
-	</div>
-</section>
+<div class="large-1-1 medium-1-1 small-1-1 footer">
+  <p>&copy;Copyright, 2018</p>
 </div>
-		
-<div class="large-1-1 medium-1-1 small-1-1 kontaktcontainer">	
-<section id="kontakt">
-	<div class="large-1-3 medium-1-2 small-1-1">
-		<a href="#forside">
-		<img class="logo" src="images1/1x/logo3.png" alt="logo">
-		</a>
-	</div>
-	
-	<div class="large-1-2 medium-1-2 small-1-1 ">
-		<h1>Kontakt</h1>
-  <div class="menuToggle">
-    <input type="checkbox" />
-    <span></span>
-    <span></span>
-    <span></span>
-    <ul class="menu2">
-      <li><a href="#projekter">Projekter</a></li>
-      <li><a href="#omkring">Omkring</a></li>
-      <li><a href="#kontakt">Kontakt</a></li>
-    </ul>
-  </div>
-		</div>
-	<div class="large-1-1 medium-1-1 small-1-1 kontaktbox">
-		<div class="large-1-3 medium-1-3 small-1-1">
-		<div class="contact-form">
-	  	<form id="contact-form" action="mailto:juliejhome@gmail.com" method="post" enctype="text/plain">
-		  <input name="name" type="text" class="form-control" placeholder="Navn" required><br>
-		  <input name="name" type="email" class="form-control" placeholder="Email" required><br>
-			<textarea name="message" class="form-control" placeholder="Besked" rows="4" required></textarea><br>
-		  <input type="submit" class="form-control submit" value="SEND">
-		</form>
-	  </div>
-		</div>
-		<div class="large-1-3 medium-1-3 hide-on-small">
-		<figure><img src="images/kuvert.gif" width="700" height="700" alt="kuvert"/></figure>
-		</div>
-		<div class="large-1-3 medium-1-3 small-1-1 kontaktoplysninger">
-			<h4>Kontaktoplysninger</h4>
-			Telefon: 51161513 <br>
-				Email: juliejhome@gmail.com <br>
-				<ul>
-				<li><a href="https://www.facebook.com/juliejhome"><p class="fa fa-facebook"></p></a>
-				<p class="fa fa-twitter"></p>
-				<p class="fa fa-linkedin"></p>
-				<a href="https://www.instagram.com/juliebjensen20/"><p class="fa fa-instagram"></p></a></li>
-			</ul>
-		</div>
-	</div>
-</section>
-</div>	
-	</div>
-	</div>
-		<div class="large-1-1 medium-1-1 small-1-1 footer">
-		<p>&copy;Copyright, 2018</p>
-	</div>
 </body>
 </html>
